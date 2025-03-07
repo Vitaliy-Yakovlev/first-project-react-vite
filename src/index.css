@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: url(./images/freeVector.jpg);
+  background-attachment: fixed
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  color: #212121;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.btnLoadMoreSharp {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  outline: none;
+
+  background-color: rgba(41, 255, 8, 0.7);
+
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 50%;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btnLoadMoreSharp:focus,
+.btnLoadMoreSharp:hover {
+  background-color: rgb(39, 133, 226);
+}
+
+.loadMoreSharp {
+  color: rgb(255, 255, 255);
+  width: 90px;
+  height: 90px;
+}
+
+.loLogoYoutube {
+  width: 70px;
+  height: 45px;
+  fill: red;
+}
+
+.btnYouTube {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+
+  transition: -webkit-transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    -webkit-transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btnYouTube:hover {
+  transform: scale(1.35);
+}
+
+/* Animations */
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex.fill {
+  height: 100%;
+}
+
+.flex.center {
+  justify-content: center;
+}
+
+.lazy-load-image-background {
+  display: block !important;
+}
+
+.infinite-scroll-component {
+  overflow: visible !important;
+}

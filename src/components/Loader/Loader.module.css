@@ -1,0 +1,21 @@
+.spinnerStyle {
+  position: fixed;
+  margin-top: 70%;
+  margin-left: 35%;
+
+  z-index: 99;
+}
+
+@media screen and (min-width: 768px) {
+  .spinnerStyle {
+    margin-top: 30%;
+    margin-left: 45%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .spinnerStyle {
+    margin-top: 250px;
+    margin-left: 522px;
+  }
+}

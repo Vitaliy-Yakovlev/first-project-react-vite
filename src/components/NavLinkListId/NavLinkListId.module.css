@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 80px;
+  margin-bottom: 16px;
+  border-bottom: 2px solid #2a363b;
+}
+
+.title {
+  list-style: none;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 25px;
+  font-weight: 500;
+  color: #fbfbfb;
+  font-size: 18px;
+}
+
+.activeLink {
+  composes: link;
+  color: rgba(0, 200, 255, 0.694);
+}
+
+.link:hover,
+link:focus {
+  color: rgba(0, 200, 255, 0.694);
+}

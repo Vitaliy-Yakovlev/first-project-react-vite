@@ -1,0 +1,40 @@
+.btn {
+  border: none;
+  padding: 8px 15px;
+  background-color: rgb(251, 148, 79);
+  color: #fff;
+  font-weight: 500;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1px 2px 2px 0 rgb(0 0 0 / 0.5);
+  transition: box-shadow 250ms linear;
+
+  border-radius: 10px;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: rgb(225, 29, 179);
+}
+
+.iframe {
+  width: 300px;
+  height: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .iframe {
+    width: 748px;
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .iframe {
+    width: 800px;
+    height: 600px;
+  }
+}

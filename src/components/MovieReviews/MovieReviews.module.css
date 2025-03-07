@@ -1,0 +1,22 @@
+.title {
+  padding: 25px;
+  border-radius: 15px;
+  list-style: none;
+  color: rgb(220, 220, 220);
+  background-color: #000000af;
+}
+
+.author {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.67;
+  margin-right: 50px;
+}
+
+.error {
+  text-align: center;
+  color: #ff0000;
+  font-size: 20px;
+  line-height: 1.67;
+  font-weight: 700;
+}
