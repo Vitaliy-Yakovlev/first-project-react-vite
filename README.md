@@ -48,9 +48,9 @@
 
 ## Налаштування ESLint
 
-Останнім кроком буде невеличка зміна налаштувань лінтера ESLint. У файлі налаштувань [eslint.config.js]() потрібно відключити одне непотрібне нам правило. Зокрема, додайте до блоку `rules` властивість `react/prop-types` значенням `0`.
+Останнім кроком буде невеличка зміна налаштувань лінтера ESLint. У файлі налаштувань `eslint.config.js` потрібно відключити одне непотрібне нам правило. Зокрема, додайте до блоку `rules` властивість `react/prop-types` значенням `0`.
 
-Ви можете просто взяти наступний код, який містить потрібні налаштування, і замінити ним вміст файлу [eslint.config.js]():
+Ви можете просто взяти наступний код, який містить потрібні налаштування, і замінити ним вміст файлу `eslint.config.js`:
 
 ```javascript
 import js from "@eslint/js";
@@ -92,3 +92,32 @@ export default [
     },
   },
 ];
+```
+
+## Налаштування Vite
+
+`vite.config.js`
+
+```javascript
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react-swc';
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [
+    react(),
+    svgr({
+      svgrOptions: {
+        exportType: 'default',
+        ref: true,
+        svgo: false,
+        titleProp: true,
+      },
+      include: '**/*.svg',
+    }),
+  ],
+  build: {
+    sourcemap: true,
+  },
+});
+```
