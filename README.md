@@ -44,7 +44,7 @@
 
 Части кода, которые не соответствуют стандартам качества, будут подчеркнуты желтым (предупреждение) или красным (ошибка) пунктиром. При наведении мыши на пунктир появится всплывающая подсказка с описанием проблемы.
 
-<img src = "https://s3.eu-north-1.amazonaws.com/lms.goit.files/fef7f6ac-0af6-43e7-a503-d0f14dd2370fScreenshot%202024-01-08%20at%2015.50.03.png" alt ="React" width =800px/>
+<img src = "src/images/ESLint.png" alt ="ESLint" width =800px/>
 
 ## Налаштування ESLint
 
