@@ -1,7 +1,7 @@
 # React + Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) использует [Babel](https://babeljs.io/) для Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) использует [SWC](https://swc.rs/) для Fast Refresh
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) використовуємо [Babel](https://babeljs.io/) для Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) використовуємо [SWC](https://swc.rs/) для Fast Refresh
 
 ## Створення проєкту
 
@@ -42,7 +42,7 @@
 
 В проекте, созданном с помощью Vite, уже настроен линтинг - проверка качества кода. Чтобы получать визуальный фидбек от линтера в редакторе VSCode, нужно добавить [расширение ESLint.](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-Части кода, которые не соответствуют стандартам качества, будут подчеркнуты желтым (предупреждение) или красным (ошибка) пунктиром. При наведении мыши на пунктир появится всплывающая подсказка с описанием проблемы.
+Частини коду, які не відповідають стандартам якості, будуть підкреслені жовтим (попередження) або червоним (помилка) пунктиром. При наведенні миші на пунктир з'явиться спливаюча підказка з описом проблеми.
 
 <img src = "src/images/ESLint.png" alt ="ESLint" width =800px/>
 
